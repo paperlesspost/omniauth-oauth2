@@ -22,5 +22,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = 'omniauth-oauth2'
   gem.require_paths = ['lib']
-  gem.version       = OmniAuth::OAuth2::VERSION
+  gem.version       = OmniAuth::OAuth2::VERSION + '.paperless'
 end
